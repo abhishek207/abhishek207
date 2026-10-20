@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="168" viewBox="0 0 1200 168" role="img" aria-label="Key numbers from GitHub">
+<title>Key numbers from GitHub</title>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffb347" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#ff3d8a" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7b61ff" stop-opacity=".5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".1" cy="0" r="1">
+    <stop offset="0" stop-color="#7b61ff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0d0b1f" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  text { font-family: 'Space Grotesk','Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; fill: #fff4e6; }
+  .eyebrow { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 2px; fill: #ffb347; }
+  .h { font-size: 20px; font-weight: 700; }
+  .muted { fill: #b7afc4; font-size: 12px; }
+  .fade { opacity: 0; animation: fade .7s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  
+</style>
+<rect x=".5" y=".5" width="1199" height="167" rx="18" fill="#0d0b1f"/>
+<rect x=".5" y=".5" width="1199" height="167" rx="18" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="167" rx="18" fill="none" stroke="url(#edge)"/>
+<g class="fade" style="animation-delay:0.00s"><circle cx="76" cy="52" r="4" fill="#ffb347"/><text x="88" y="57" class="eyebrow" style="fill:#ffb347">REPOSITORIES</text><text x="72" y="108" font-size="46" font-weight="700" letter-spacing="-1.5">51</text><text x="74" y="134" class="muted" font-size="13">own work, forks excluded</text></g>
+<line x1="324" y1="40" x2="324" y2="128" stroke="#fff4e6" stroke-opacity=".1"/>
+<g class="fade" style="animation-delay:0.12s"><circle cx="352" cy="52" r="4" fill="#ff3d8a"/><text x="364" y="57" class="eyebrow" style="fill:#ff3d8a">COMMITS</text><text x="348" y="108" font-size="46" font-weight="700" letter-spacing="-1.5">1,128</text><text x="350" y="134" class="muted" font-size="13">Nov 2025 to Oct 2026</text></g>
+<line x1="600" y1="40" x2="600" y2="128" stroke="#fff4e6" stroke-opacity=".1"/>
+<g class="fade" style="animation-delay:0.24s"><circle cx="628" cy="52" r="4" fill="#7b61ff"/><text x="640" y="57" class="eyebrow" style="fill:#7b61ff">REPOS SHIPPED TO</text><text x="624" y="108" font-size="46" font-weight="700" letter-spacing="-1.5">33</text><text x="626" y="134" class="muted" font-size="13">in 2026 so far</text></g>
+<line x1="876" y1="40" x2="876" y2="128" stroke="#fff4e6" stroke-opacity=".1"/>
+<g class="fade" style="animation-delay:0.36s"><circle cx="904" cy="52" r="4" fill="#5cf5c8"/><text x="916" y="57" class="eyebrow" style="fill:#5cf5c8">CLIENT BUILDS</text><text x="900" y="108" font-size="46" font-weight="700" letter-spacing="-1.5">6</text><text x="902" y="134" class="muted" font-size="13">brands, stores, sites</text></g>
+</svg>
