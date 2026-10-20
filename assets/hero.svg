@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-label="Abhishek Kumar, founder of Brand Bakery">
+<title>Abhishek Kumar, founder of Brand Bakery</title>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffb347" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#ff3d8a" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7b61ff" stop-opacity=".5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".1" cy="0" r="1">
+    <stop offset="0" stop-color="#7b61ff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0d0b1f" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  text { font-family: 'Space Grotesk','Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; fill: #fff4e6; }
+  .eyebrow { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 2px; fill: #ffb347; }
+  .h { font-size: 20px; font-weight: 700; }
+  .muted { fill: #b7afc4; font-size: 12px; }
+  .fade { opacity: 0; animation: fade .7s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  
+  .orb { transform-box: fill-box; transform-origin: center; animation: drift 14s ease-in-out infinite alternate; }
+  .b { animation-duration: 17s; animation-delay: -4s; }
+  .c { animation-duration: 20s; animation-delay: -9s; }
+  @keyframes drift { 0% { transform: translate(0,0) scale(1); } 50% { transform: translate(-60px,30px) scale(1.15); } 100% { transform: translate(40px,-25px) scale(.9); } }
+  .spin { animation: spin 40s linear infinite; transform-origin: 0 0; }
+  @keyframes spin { from { transform: translate(905px,210px) rotate(0deg); } to { transform: translate(905px,210px) rotate(360deg); } }
+  .pulse { animation: pulse 2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes pulse { 50% { opacity: .35; transform: scale(1.6); } }
+
+</style>
+<rect x=".5" y=".5" width="1199" height="419" rx="18" fill="#0d0b1f"/>
+<rect x=".5" y=".5" width="1199" height="419" rx="18" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="1199" height="419" rx="18" fill="none" stroke="url(#edge)"/>
+
+<defs>
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#fff4e6" stroke-opacity=".045"/>
+  </pattern>
+  <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff4e6"/>
+    <stop offset=".55" stop-color="#ffb347"/>
+    <stop offset="1" stop-color="#ff3d8a"/>
+  </linearGradient>
+  <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="60"/></filter>
+  <clipPath id="card"><rect width="1200" height="420" rx="18"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1200" height="420" fill="#06060f"/>
+  <g filter="url(#blur)">
+    <circle class="orb a" cx="930" cy="120" r="150" fill="#ff3d8a" fill-opacity=".55"/>
+    <circle class="orb b" cx="1060" cy="300" r="130" fill="#ffb347" fill-opacity=".5"/>
+    <circle class="orb c" cx="820" cy="330" r="120" fill="#7b61ff" fill-opacity=".6"/>
+  </g>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <g transform="translate(905 210)" class="spin">
+    <circle r="118" fill="none" stroke="#fff4e6" stroke-opacity=".14" stroke-dasharray="2 10"/>
+    <circle r="78" fill="none" stroke="#fff4e6" stroke-opacity=".12"/>
+    <circle cx="118" r="5" fill="#ffb347"/>
+    <circle cx="-55" cy="-55" r="4" fill="#5cf5c8"/>
+  </g>
+</g>
+<rect x=".5" y=".5" width="1199" height="419" rx="18" fill="none" stroke="url(#edge)"/>
+<text x="72" y="96" class="eyebrow fade">FOUNDER · BRAND BAKERY · INDIA</text>
+<text x="68" y="182" font-size="78" font-weight="700" letter-spacing="-2.5" fill="url(#name)" class="fade" style="animation-delay:.2s">Abhishek Kumar</text>
+<text x="72" y="232" font-size="23" fill-opacity=".92" class="fade" style="animation-delay:.45s">I run a design-first digital agency and build the products,</text>
+<text x="72" y="264" font-size="23" fill-opacity=".92" class="fade" style="animation-delay:.6s">AI agents and systems behind it.</text>
+<g class="fade" style="animation-delay:.85s"><circle cx="78" cy="293" r="4" fill="#5cf5c8" class="pulse"/>
+<text x="92" y="298" class="muted" font-size="14">Currently shipping the new brandbakery.tech</text></g>
+<g class="fade" style="animation-delay:1.10s"><rect x="72" y="318" width="160" height="34" rx="17" fill="#fff4e6" fill-opacity=".06" stroke="#fff4e6" stroke-opacity=".16"/><text x="152" y="340" text-anchor="middle" font-size="14" fill-opacity=".9">Brand Bakery Hub</text></g><g class="fade" style="animation-delay:1.22s"><rect x="241.6" y="318" width="99" height="34" rx="17" fill="#fff4e6" fill-opacity=".06" stroke="#fff4e6" stroke-opacity=".16"/><text x="291" y="340" text-anchor="middle" font-size="14" fill-opacity=".9">BB Studio</text></g><g class="fade" style="animation-delay:1.34s"><rect x="351.0" y="318" width="125" height="34" rx="17" fill="#fff4e6" fill-opacity=".06" stroke="#fff4e6" stroke-opacity=".16"/><text x="414" y="340" text-anchor="middle" font-size="14" fill-opacity=".9">AI Employees</text></g><g class="fade" style="animation-delay:1.46s"><rect x="486.2" y="318" width="56" height="34" rx="17" fill="#fff4e6" fill-opacity=".06" stroke="#fff4e6" stroke-opacity=".16"/><text x="514" y="340" text-anchor="middle" font-size="14" fill-opacity=".9">Arzi</text></g><g class="fade" style="animation-delay:1.58s"><rect x="552.6" y="318" width="56" height="34" rx="17" fill="#fff4e6" fill-opacity=".06" stroke="#fff4e6" stroke-opacity=".16"/><text x="581" y="340" text-anchor="middle" font-size="14" fill-opacity=".9">Kosh</text></g>
+
+</svg>

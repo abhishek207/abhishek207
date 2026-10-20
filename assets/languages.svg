@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="580" height="356" viewBox="0 0 580 356" role="img" aria-label="What I write">
+<title>What I write</title>
+<defs>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#ffb347" stop-opacity=".55"/>
+    <stop offset=".5" stop-color="#ff3d8a" stop-opacity=".18"/>
+    <stop offset="1" stop-color="#7b61ff" stop-opacity=".5"/>
+  </linearGradient>
+  <radialGradient id="glow" cx=".1" cy="0" r="1">
+    <stop offset="0" stop-color="#7b61ff" stop-opacity=".22"/>
+    <stop offset="1" stop-color="#0d0b1f" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<style>
+  text { font-family: 'Space Grotesk','Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif; fill: #fff4e6; }
+  .eyebrow { font-family: 'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace; font-size: 11px; letter-spacing: 2px; fill: #ffb347; }
+  .h { font-size: 20px; font-weight: 700; }
+  .muted { fill: #b7afc4; font-size: 12px; }
+  .fade { opacity: 0; animation: fade .7s ease-out forwards; }
+  @keyframes fade { to { opacity: 1; } }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; opacity: 1 !important; } }
+  
+  .arc { animation: draw 1s cubic-bezier(.2,.7,.2,1) both; }
+  @keyframes draw { from { stroke-dasharray: 0 1000; } }
+
+</style>
+<rect x=".5" y=".5" width="579" height="355" rx="18" fill="#0d0b1f"/>
+<rect x=".5" y=".5" width="579" height="355" rx="18" fill="url(#glow)"/>
+<rect x=".5" y=".5" width="579" height="355" rx="18" fill="none" stroke="url(#edge)"/>
+
+<text x="32" y="44" class="eyebrow">LANGUAGES</text>
+<text x="32" y="72" class="h">What I write</text>
+<circle cx="150" cy="206" r="88" fill="none" stroke="#fff4e6" stroke-opacity=".06" stroke-width="26"/>
+<circle cx="150" cy="206" r="88" fill="none" stroke="#ffb347" stroke-width="26" stroke-dasharray="200.47 552.92" stroke-dashoffset="-0.00" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.15s; --len:200.47"/><circle cx="150" cy="206" r="88" fill="none" stroke="#ff3d8a" stroke-width="26" stroke-dasharray="142.42 552.92" stroke-dashoffset="-203.47" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.25s; --len:142.42"/><circle cx="150" cy="206" r="88" fill="none" stroke="#7b61ff" stroke-width="26" stroke-dasharray="88.78 552.92" stroke-dashoffset="-348.89" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.35s; --len:88.78"/><circle cx="150" cy="206" r="88" fill="none" stroke="#5cf5c8" stroke-width="26" stroke-dasharray="74.41 552.92" stroke-dashoffset="-440.68" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.45s; --len:74.41"/><circle cx="150" cy="206" r="88" fill="none" stroke="#ff7a1a" stroke-width="26" stroke-dasharray="20.78 552.92" stroke-dashoffset="-518.09" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.55s; --len:20.78"/><circle cx="150" cy="206" r="88" fill="none" stroke="#8a8499" stroke-width="26" stroke-dasharray="8.06 552.92" stroke-dashoffset="-541.86" transform="rotate(-90 150 206)" class="arc" style="animation-delay:0.65s; --len:8.06"/>
+<text x="150" y="212" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="-1">36.8%</text>
+<text x="150" y="234" text-anchor="middle" class="muted">TypeScript</text>
+<g class="fade" style="animation-delay:0.30s"><rect x="300" y="124" width="13" height="13" rx="3" fill="#ffb347"/><text x="322" y="136" font-size="16">TypeScript</text><text x="540" y="136" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">36.8%</text></g><g class="fade" style="animation-delay:0.40s"><rect x="300" y="158" width="13" height="13" rx="3" fill="#ff3d8a"/><text x="322" y="170" font-size="16">HTML</text><text x="540" y="170" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">26.3%</text></g><g class="fade" style="animation-delay:0.50s"><rect x="300" y="192" width="13" height="13" rx="3" fill="#7b61ff"/><text x="322" y="204" font-size="16">JavaScript</text><text x="540" y="204" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">16.6%</text></g><g class="fade" style="animation-delay:0.60s"><rect x="300" y="226" width="13" height="13" rx="3" fill="#5cf5c8"/><text x="322" y="238" font-size="16">Swift</text><text x="540" y="238" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">14%</text></g><g class="fade" style="animation-delay:0.70s"><rect x="300" y="260" width="13" height="13" rx="3" fill="#ff7a1a"/><text x="322" y="272" font-size="16">CSS</text><text x="540" y="272" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">4.3%</text></g><g class="fade" style="animation-delay:0.80s"><rect x="300" y="294" width="13" height="13" rx="3" fill="#8a8499"/><text x="322" y="306" font-size="16">Other</text><text x="540" y="306" font-size="15" text-anchor="end" font-family="'JetBrains Mono','SFMono-Regular',Consolas,'Liberation Mono',monospace" fill="#b7afc4">2%</text></g>
+<text x="32" y="334" class="muted" font-size="11">share of code by bytes across 31 active repos · as of 20 Oct 2026</text>
+
+</svg>

@@ -1,0 +1,25 @@
+{
+  "asOf": "20 Oct 2026",
+  "kpis": [
+    {"value": "51", "label": "repositories", "sub": "own work, forks excluded"},
+    {"value": "1,128", "label": "commits", "sub": "Nov 2025 to Oct 2026"},
+    {"value": "33", "label": "repos shipped to", "sub": "in 2026 so far"},
+    {"value": "6", "label": "client builds", "sub": "brands, stores, sites"}
+  ],
+  "languages": [
+    ["TypeScript", 36.8], ["HTML", 26.3], ["JavaScript", 16.6],
+    ["Swift", 14.0], ["CSS", 4.3], ["Other", 2.0]
+  ],
+  "languagesNote": "share of code by bytes across 31 active repos",
+  "activity": [
+    ["Nov", 24], ["Dec", 17], ["Jan", 1], ["Feb", 2], ["Mar", 94], ["Apr", 227],
+    ["May", 17], ["Jun", 17], ["Jul", 82], ["Aug", 11], ["Sep", 78], ["Oct", 558]
+  ],
+  "activityNote": "commits per month on default branches, Nov 2025 to 20 Oct 2026",
+  "portfolio": [
+    ["Own products", 13], ["AI tools and agents", 13],
+    ["Brivi workspace", 10], ["Brand Bakery platform", 6],
+    ["Client builds", 6], ["Open-source starters", 3]
+  ],
+  "portfolioNote": "51 repositories grouped by what they are"
+}
