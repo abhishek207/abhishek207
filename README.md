@@ -1,68 +1,19 @@
-<a href="https://www.brandbakery.tech">
-  <img src="./assets/hero.svg" width="100%" alt="Abhishek Kumar, founder of Brand Bakery. I run a design-first digital agency and build the products, AI agents and systems behind it." />
-</a>
-
-<p align="center">
-  <a href="https://www.brandbakery.tech"><img src="https://img.shields.io/badge/brandbakery.tech-06060f?style=for-the-badge&logo=googlechrome&logoColor=ffb347" alt="Brand Bakery website" /></a>
-  <a href="https://www.linkedin.com/in/abhishek-kumar7/"><img src="https://img.shields.io/badge/LinkedIn-06060f?style=for-the-badge&logo=linkedin&logoColor=ff3d8a" alt="LinkedIn" /></a>
-  <a href="https://x.com/AbhisheKumarA7"><img src="https://img.shields.io/badge/@AbhisheKumarA7-06060f?style=for-the-badge&logo=x&logoColor=fff4e6" alt="X" /></a>
-</p>
-
-<img src="./assets/numbers.svg" width="100%" alt="51 repositories, 1,128 commits from Nov 2025 to Oct 2026, 33 repos shipped to in 2026, 6 client builds" />
-
-## What I'm building
-
-I founded **[Brand Bakery](https://www.brandbakery.tech)**, a design-first digital agency registered in India as an MSME. We design brands, build websites and stores, and now build AI employees for businesses. Most of my GitHub is private client and product work, so the charts below are drawn from those repos.
-
-| | Project | What it is |
-|:-:|---|---|
-| 🍞 | **Brand Bakery** | The agency site, being rebuilt in Next.js with all of its motion intact. |
-| 🧭 | **Brand Bakery Hub** | Our internal ops app: CRM, clients, AI agents, runs and reviews. Next.js on Cloudflare Workers with D1. |
-| 🎨 | **BB Studio** | The design tool we use in live client sessions. |
-| 🤖 | **AI Employees** | Custom AI staff for businesses that handle calls, WhatsApp, email and follow-ups. We build, deploy and train them. |
-| ⚖️ | **Arzi** | Helps Indian consumers draft and send a formal complaint to a company. |
-| 🧠 | **Kosh** | A native macOS app that turns what's on screen into a private, searchable memory, on device only. Swift. |
-| 🍜 | **BiteSquare** | A cloud-kitchen storefront and owner app on Cloudflare Workers, Neon Postgres and R2. |
-| 🛡️ | **MCPBouncer** | A directory of MCP servers with deterministic 0 to 100 safety scores. |
-| 🔥 | **[Ember](https://github.com/abhishek207/ember)** | A calm companion for quitting smoking. |
-| ✨ | **Brivi** | An AI workspace across web, browser extension and desktop. Ten repos and counting. |
-
-**Client builds:** storefronts, sites and launches for brands like Pure Prakriti, Mino Bowls (Shopify Hydrogen), AccelHire, Social Road and Richa Jha.
-
-## By the numbers
-
-<img src="./assets/activity.svg" width="100%" alt="Commits per month from Nov 2025 to Oct 2026. October 2026 is the busiest month with 558 commits." />
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" /><img src="./assets/hero-light.svg" width="100%" alt="Abhishek Kumar. I design brands and build quiet software. Brand Bakery is my design-first studio in India. We make brands, websites and AI employees that answer the phone. I also build Brivi, a private memory and voice typing app for the Mac." /></picture>
 
 <p>
-  <img src="./assets/languages.svg" width="49%" alt="Languages by share of code: TypeScript 36.8%, HTML 26.3%, JavaScript 16.6%, Swift 14%, CSS 4.3%, other 2%" />
-  <img src="./assets/portfolio.svg" width="49%" alt="51 repositories: 13 own products, 13 AI tools and agents, 10 Brivi, 6 Brand Bakery platform, 6 client builds, 3 open-source starters" />
+  <a href="https://www.brandbakery.tech"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-brandbakery-dark.svg" /><img src="./assets/link-brandbakery-light.svg" height="36" width="173" alt="brandbakery.tech" /></picture></a>
+  <a href="https://brivi.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-brivi-dark.svg" /><img src="./assets/link-brivi-light.svg" height="36" width="112" alt="brivi.app" /></picture></a>
+  <a href="https://www.linkedin.com/in/abhishek-kumar7/"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-linkedin-dark.svg" /><img src="./assets/link-linkedin-light.svg" height="36" width="109" alt="LinkedIn" /></picture></a>
+  <a href="https://x.com/AbhisheKumarA7"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/link-x-dark.svg" /><img src="./assets/link-x-light.svg" height="36" width="63" alt="X" /></picture></a>
 </p>
 
-## Open source
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-dark.svg" /><img src="./assets/work-light.svg" width="100%" alt="Selected work" /></picture>
 
-| Repo | |
-|---|---|
-| [**nextbase**](https://github.com/abhishek207/nextbase) | A lean, production-shaped Next.js 16 SaaS starter. Beginner friendly and ready for coding agents. |
-| [**sarvam-skill**](https://github.com/abhishek207/sarvam-skill) | A Sarvam AI skill for coding agents: Indian-language TTS, STT, translation and voice agents. |
-| [**ember**](https://github.com/abhishek207/ember) | A quiet app for quitting smoking. |
+<a href="https://brivi.app"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-brivi-dark.svg" /><img src="./assets/work-brivi-light.svg" width="100%" alt="Brivi: A private memory and voice typing for your Mac. Nothing leaves the device." /></picture></a>
+<a href="https://www.brandbakery.tech"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-brand-bakery-dark.svg" /><img src="./assets/work-brand-bakery-light.svg" width="100%" alt="Brand Bakery: Design-first studio. Brands, websites, stores and AI employees." /></picture></a>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-ombudy-dark.svg" /><img src="./assets/work-ombudy-light.svg" width="100%" alt="Ombudy: Helps Indian consumers draft and send a formal complaint to a company." /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-bitesquare-dark.svg" /><img src="./assets/work-bitesquare-light.svg" width="100%" alt="BiteSquare: A storefront and owner app for cloud kitchens." /></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-mcpbouncer-dark.svg" /><img src="./assets/work-mcpbouncer-light.svg" width="100%" alt="MCPBouncer: A directory of MCP servers with deterministic 0 to 100 safety scores." /></picture>
+<a href="https://github.com/abhishek207/ember"><picture><source media="(prefers-color-scheme: dark)" srcset="./assets/work-ember-dark.svg" /><img src="./assets/work-ember-light.svg" width="100%" alt="Ember: A quiet companion for quitting smoking." /></picture></a>
 
-## Stack
-
-<p>
-  <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind,nodejs,cloudflare,supabase,postgres,swift,electron,python,vercel,figma&perline=13" alt="TypeScript, React, Next.js, Tailwind, Node.js, Cloudflare, Supabase, Postgres, Swift, Electron, Python, Vercel, Figma" />
-</p>
-
-Next.js, React and Tailwind with Motion for the front end. Cloudflare Workers, D1 and R2 for most backends. Supabase and Neon when I need Postgres. Shopify Hydrogen for commerce. Swift for native Mac. Sarvam for Indian-language voice.
-
-## Contributions
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/abhishek207/abhishek207/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/abhishek207/abhishek207/output/snake.svg" width="100%" alt="Contribution graph being eaten by a snake" />
-</picture>
-
-## Work with us
-
-Need a brand, a website that moves, or an AI employee that picks up the phone? Write to us through **[brandbakery.tech](https://www.brandbakery.tech)**.
-
-<sub>Charts are generated by [`scripts/build_cards.py`](scripts/build_cards.py) from [`scripts/data.json`](scripts/data.json). Last updated 20 Oct 2026.</sub>
+<picture><source media="(prefers-color-scheme: dark)" srcset="./assets/clients-dark.svg" /><img src="./assets/clients-light.svg" width="100%" alt="Client work for Pure Prakriti, Mino Bowls, AccelHire, Social Road and Richa Jha." /></picture>
